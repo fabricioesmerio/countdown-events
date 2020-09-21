@@ -60,5 +60,3 @@ function showTimes() {
 }
 
 setInterval(showTimes, 1000);
-
-console.log(dataEvent.total);
