@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: #473C8B;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: auto;
+    height: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 48px;
+    color: aqua;
+    margin-top: 24px;
+}
+
+@media (max-width: 490px) 
+{
+    .container h1 
+   {
+    margin-top: 200px;
+   }
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px;
+    min-height: 120px;
+}
+
+li .time {
+    height: 185px;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.25);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    margin: 12px;
+    box-shadow: 2px 5px 18px 1px rgba(0,0,0,0.35);
+}
+
+li .time span {
+    font-size: 100px;
+}
+
+li div {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: -30px;
+    text-transform: capitalize;
+}
+
+.container span.date_event {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: aqua;
+    flex-wrap: wrap;
+    text-align: center;
+}
